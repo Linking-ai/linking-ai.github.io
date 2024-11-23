@@ -76,7 +76,7 @@
     }
   </style>
   <link rel="icon" type="image/png" href="seal_icon.png">
-  <title>Rulin Shao</title>
+  <title>Zhenglin Wang</title>
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <script src="./utils.js"></script>
@@ -90,26 +90,29 @@
           <tr>
             <td width="67%" valign="middle">
               <p align="center">
-                <name>Rulin Shao</name>
+                <name>Zhenglin Wang | 王政霖</name>
               </p>
               <p>
-                I am a second-year PhD at University of Washington advised by Prof. <a href="https://koh.pw/"> Pang Wei Koh </a> and Prof. <a href="https://www.cs.washington.edu/people/faculty/lsz"> Luke Zettlemoyer </a>. 
-                I am also a visiting researcher at Meta working with <a href="https://scottyih.org/"> Scott Yih </a> and <a href="https://scholar.google.co.uk/citations?user=SnQnQicAAAAJ&hl=en"> Mike Lewis </a>.
-                I completed my master's in Machine Learning at CMU advised by Prof. <a href="http://www.cs.cmu.edu/~epxing/"> Eric Xing </a> and my undergraduate degree in Mathematics at XJTU.
+                I am a M.S. student in Artificial Intelligence at <a href="https://www.seu.edu.cn/english/">Southeast University</a>.
+                I was a member of the <a href="https://palm.seu.edu.cn/">PAttern Learning and Mining (PALM) Lab</a>.
+                Before starting my M.S in 2023, I obtained my B.S. degree in Computer Science at <a href="https://www.gzu.edu.cn/">Guizhou University</a>.
                 <br>
                 <br>
-                I'm interested in the synergy between information retrieval and generative models. I am also interested in vision-language multimodal learning and long-context modeling.
+                My research mainly focuses on Efficient LLMs Inference, and Text Generation.
+                Now I am working on <b>KV Cache Compression</b> and <b>Long-context LLMs Inference</b>.
+                I am also interested in <b>LLM Powered Autonomous Agents</b>.
+                <br>
+                <br>
+                Feel free to reach out to me at <a href="mailto:zhenglin@seu.edu.cn"> zhenglin@seu.edu.cn </a>!
               </p>
               <p align=center>
-                <a href="https://scholar.google.com/citations?user=Vdwh6bcAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/RulinShao"> GitHub </a> &nbsp/&nbsp
-                <a href="https://twitter.com/RulinShao"> Twitter </a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/rulin-shao-966435191/"> LinkedIn </a> &nbsp/&nbsp
-                <a href="mailto:rulins@cs.washington.edu"> Email </a>
+                <a href="https://scholar.google.com/citations?user=HzCrpVQAAAAJ&hl=zh-CN">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/Linking-ai"> GitHub </a> &nbsp/&nbsp
+                <a href="https://www.xiaohongshu.com/user/profile/5e1c5bf200000000010082a1"> Xiaohongshu </a>
               </p>
             </td>
             <td width="33%">
-              <img src="selfie.jpg" style="width: 100%;">
+              <img src="me.jpg" style="width: 100%;">
             </td>
           </tr>
         </table>
@@ -121,25 +124,17 @@
             <td width="60%" valign="middle">
               <heading>News</heading>
               <ul>
-                <li> <b>2024-09</b> Joined Meta as a visiting researcher! </li>
-                <li> <b>2024-07</b> Introducing <a href="https://retrievalscaling.github.io/"> MassiveDS </a>, a 1.4T-token open-source datastore, and a scaling study for retrieval-based language models! We show scaling data used at test time brings better compute-optimal scaling curves.</li>
-                <li> <b>2024-06</b> Started internship at <a href="https://ai.meta.com/research/"> Meta FAIR</a>! </li>
-                <li> <b>2023-10</b> Gave a talk at AWS on Long-context LLMs! <a href="https://drive.google.com/file/d/1d2St0r72ksgwLfTmc78uhXGq_JJR9l2e/view?usp=sharing"> [slides] </a> </li>
-                <li> <b>2023-10</b> Gave a talk at SAMPL Lab on scaling up retrieval-based language models! </li>
-                <li> <b>2023-10</b> Introducing <a href="https://arxiv.org/abs/2310.03294v1"> LightSeq </a>, a better sequence parallelism solution for long-context LLM training! It is highly optimized for decoders, and it does not entangle with the model architecture, allowing you to scale up your sequence length without an upper bound! </li>
-                <li> <b>2023-09</b> Started PhD at University of Washington!
-                <li> <b>2023-06</b> Introducing our latest work on the long-context models (LongChat) and benchmark (LongEval) in this <a href="https://lmsys.org/blog/2023-06-29-longchat/"> LMSys blog </a>! Stay tuned! </li>
-                <li> <b>2023-01</b> Joined AWS as a full-time Applied Scientist working on language model pretraining! </li>
+                <li> <b>2024-11</b> Joined <a href="https://github.com/Zefan-Cai/KVCache-Factory">KVCache-Factory</a> as a contributor! </li>
               </ul>
             </td>
           </tr>
         </table>
 
-        <!-- Researches -->
+        <!-- (Co-)First-Author Publications -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="100%" valign="middle">
-              <heading>Research </heading>
+              <heading>(Co-)First-Author Publications</heading>
               <p>
                 
           </tr>
@@ -150,269 +145,53 @@
           <!-- Projects -->
 
           <tr>
-            <td width="25%" id="massiveds-img"></td>
-            <td valign="top" width="75%" id="massiveds-txt"></td>
+            <td width="25%" id="seed-img"></td>
+            <td valign="top" width="75%" id="seed-txt"></td>
           </tr>
           <script type="text/javascript">
             createProjectElement(
-              id = "massiveds", {
-              title: "Scaling Retrieval-Based Language Models with a Trillion-Token Datastore",
-              paper_url: "https://arxiv.org/abs/2407.12854",
-              authors: "<b>Rulin Shao</b>, Jacqueline He, Akari Asai, Weijia Shi, Tim Dettmers, Sewon Min, Luke Zettlemoyer, Pang Wei Koh",
-              conference: "NeurIPS 2024",
-              image: "figures/massiveds.gif",
-              others: null
-            });
-          </script>
-          
-          <tr>
-            <td width="25%" id="dclm-img"></td>
-            <td valign="top" width="75%" id="dclm-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "dclm", {
-              title: "DataComp-LM: In search of the next generation of training sets for language models",
-              paper_url: "https://arxiv.org/abs/2403.08540",
-              authors: "Jeffrey Li, Alex Fang, Georgios Smyrnis, Maor Ivgi, Matt Jordan, Samir Gadre, Hritik Bansal, Etash Guha, Sedrick Keh, Kushal Arora, Saurabh Garg, Rui Xin, Niklas Muenninghoff, Reinhard Heckel, Jean Mercat, Mayee Chen, Suchin Gururangan, Mitchell Wortsman, Alon Albalak, Yonatan Bitton, Marianna Nezhurina, Amro Abbas, Cheng-Yu Hsieh, Dhruba Ghosh, Josh Gardner, Maciej Kilian, Hanlin Zhang, <b>Rulin Shao</b>, Sarah Pratt, Sunny Sanyal, Gabriel Ilharco, Giannis Daras, Kalyani Marathe, Aaron Gokaslan, Jieyu Zhang, Khyathi Chandu, Thao Nguyen, Igor Vasiljevic, Sham Kakade, Shuran Song, Sujay Sanghavi, Fartash Faghri, Sewoong Oh, Luke Zettlemoyer, Kyle Lo, Alaaeldin El-Nouby, Hadi Pouransari, Alexander Toshev, Stephanie Wang, Dirk Groeneveld, Luca Soldani, Pang Wei Koh, Jenia Jitsev, Thomas Kollar, Alexandros G Dimakis, Yair Carmon, Achal Dave, Ludwig Schmidt, Vaishaal Shankar",
-              conference: "NeurIPS 2024 Datasets and Benchmarks track",
-              image: "figures/dclm.png",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="lm_scale-img"></td>
-            <td valign="top" width="75%" id="lm_scale-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "lm_scale", {
-              title: "Language models scale reliably with over-training and on downstream tasks",
-              paper_url: "https://arxiv.org/abs/2403.08540",
-              authors: "Samir Yitzhak Gadre, Georgios Smyrnis, Vaishaal Shankar, Suchin Gururangan, Mitchell Wortsman, <b>Rulin Shao</b>, Jean Mercat, Alex Fang, Jeffrey Li, Sedrick Keh, Rui Xin, Marianna Nezhurina, Igor Vasiljevic, Jenia Jitsev, Alexandros G. Dimakis, Gabriel Ilharco, Shuran Song, Thomas Kollar, Yair Carmon, Achal Dave, Reinhard Heckel, Niklas Muennighoff, Ludwig Schmidt",
+              id = "seed", {
+              title: "SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding",
+              paper_url: "https://arxiv.org/abs/2406.18200",
+              authors: "<b>Zhenglin Wang</b>, Jialong Wu, Yilong Lai, Congzhi Zhang, DeyuZhou",
               conference: "Preprint",
-              image: "figures/lm_scale.png",
+              image: "figures/seed.png",
               others: null
             });
           </script>
-          
-          <tr>
-            <td width="25%" id="vision_flan-img"></td>
-            <td valign="top" width="75%" id="vision_flan-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "vision_flan", {
-              title: "Vision-Flan: Scaling Human-Labeled Tasks in Visual Instruction Tuning",
-              paper_url: "https://arxiv.org/abs/2402.11690",
-              authors: "Zhiyang Xu, Chao Feng, <b>Rulin Shao</b>, Trevor Ashby, Ying Shen, Di Jin, Yu Cheng, Qifan Wang, Lifu Huang",
-              conference: "ACL 2024 Findings",
-              image: "figures/vision_flan.png",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="multidomain-img"></td>
-            <td valign="top" width="75%" id="multidomain-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "multidomain", {
-              title: "Retrieval-based Language Models Using a Multi-domain Datastore",
-              paper_url: "https://openreview.net/pdf?id=5ck1WQ4yW4",
-              authors: "<b>Rulin Shao</b>, Sewon Min, Luke Zettlemoyer, Pang Wei Koh",
-              conference: "Workshop on Distribution Shifts at NeurIPS 2023",
-              image: "figures/multidomain.png",
-              others: null
-            });
-          </script>
-          
-          <tr>
-            <td width="25%" id="lightseq-img"></td>
-            <td valign="top" width="75%" id="lightseq-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "lightseq", {
-              title: "LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers",
-              paper_url: "https://arxiv.org/abs/2310.03294v1",
-              authors: "Dacheng Li*, <b>Rulin Shao*</b>, Anze Xie, Eric P. Xing, Joseph E. Gonzalez, Ion Stoica, Xuezhe Ma, Hao Zhang",
-              conference: "COLM 2024",
-              image: "figures/lightseq.gif",
-              others: null
-            });
-          </script>
-          
-          <tr>
-            <td width="25%" id="visit-bench-img"></td>
-            <td valign="top" width="75%" id="visit-bench-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "visit-bench", {
-              title: "VisIT-Bench: A Benchmark for Vision-Language Instruction Following Inspired by Real-World Use",
-              paper_url: "https://arxiv.org/abs/2308.06595",
-              authors: "Yonatan Bitton*, Hritik Bansal*, Jack Hessel*, <b>Rulin Shao</b>, Wanrong Zhu, Anas Awadalla, Josh Gardner, Rohan Taori, Ludwig Schimdt",
-              conference: "NeurIPS 2023 Datasets and Benchmarks track",
-              image: "figures/visit-bench.PNG",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="longchat-img"></td>
-            <td valign="top" width="75%" id="longchat-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "longchat", {
-              title: "How Long Can Open-Source LLMs Truly Promise on Context Length?",
-              paper_url: "https://lmsys.org/blog/2023-06-29-longchat/",
-              authors: "Dacheng Li*, <b>Rulin Shao*</b>, Anze Xie, Ying Sheng, Lianmin Zheng, Joseph E. Gonzalez, Ion Stoica, Xuezhe Ma, and Hao Zhang",
-              conference: "Blog",
-              image: "figures/longchat.PNG",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="cacr_acl23-img"></td>
-            <td valign="top" width="75%" id="cacr_acl23-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "cacr_acl23", {
-              title: "Cross-modal Attention Congruence Regularization for Vision-Language Relation Alignment",
-              paper_url: "https://arxiv.org/abs/2212.10549",
-              authors: "Rohan Pandey, <b>Rulin Shao</b>, Paul Pu Liang, Ruslan Salakhutdinov, Louis-Philippe Morency",
-              conference: "ACL 2023",
-              image: "figures/acl_23.PNG",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="mpc_iclr23-img"></td>
-            <td valign="top" width="75%" id="mpc_iclr23-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "mpc_iclr23", {
-              title: "MPCFormer: fast, performant and private Transformer inference with MPC",
-              paper_url: "https://arxiv.org/abs/2211.01452",
-              authors: "Dacheng Li*, <b>Rulin Shao*</b>, Hongyi Wang*, Han Guo, Eric P Xing, Hao Zhang",
-              conference: "ICLR 2023 (Spotlight)",
-              image: "figures/iclr_23.PNG",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="vit_tmlr-img"></td>
-            <td valign="top" width="75%" id="vit_tmlr-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "vit_tmlr", {
-              title: "On the adversarial robustness of vision transformers",
-              paper_url: "https://arxiv.org/abs/2103.15670",
-              authors: "<b>Rulin Shao</b>, Zhouxing Shi, Jinfeng Yi, Pin-Yu Chen, Cho-Jui Hsieh",
-              conference: "Transactions on Machine Learning Research (TMLR)",
-              image: "figures/tmlr_23.PNG",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="captcha_bigdata-img"></td>
-            <td valign="top" width="75%" id="captcha_bigdata-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "captcha_bigdata", {
-              title: "Robust text captchas using adversarial examples",
-              paper_url: "https://ieeexplore.ieee.org/abstract/document/10021100",
-              authors: "<b>Rulin Shao</b>, Zhouxing Shi, Jinfeng Yi, Pin-Yu Chen, Cho-Jui Hsieh",
-              conference: "2022 IEEE International Conference on Big Data (Big Data)",
-              image: "figures/bigdata_23.PNG",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="distill_arow-img"></td>
-            <td valign="top" width="75%" id="distill_arow-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "distill_arow", {
-              title: "How and When Adversarial Robustness Transfers in Knowledge Distillation?",
-              paper_url: "https://arxiv.org/abs/2110.12072",
-              authors: "<b>Rulin Shao</b>, Jinfeng Yi, Pin-Yu Chen, Cho-Jui Hsieh",
-              conference: "ARoW in European Conference on Computer Vision (ECCV 2022)",
-              image: "figures/arow_23.PNG",
-              others: null
-            });
-          </script>
-
-          <tr>
-            <td width="25%" id="fl_jmir-img"></td>
-            <td valign="top" width="75%" id="fl_jmir-txt"></td>
-          </tr>
-          <script type="text/javascript">
-            createProjectElement(
-              id = "fl_jmir", {
-              title: "Stochastic Channel-Based Federated Learning With Neural Network Pruning for Medical Data Privacy Preservation: Model Development and Experimental Validation",
-              paper_url: "https://formative.jmir.org/2020/12/e17265/",
-              authors: "<b>Rulin Shao</b>, Hongyu He, Ziwei Chen, Hui Liu, Dianbo Liu",
-              conference: "Journal of Medical Internet Research (JMIR) Form Res 2020;4(12):e17265, DOI: 10.2196/17265, PMID:33350391",
-              image: "figures/jmir_23.PNG",
-              others: null
-            });
-          </script>
-          
-          
-          <!-- Awards -->
+        </table>
+        
+        <!-- Other Researches -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="100%" valign="middle">
-              <heading>Awards</heading>
-            </td>
+              <heading>Other Publications</heading>
+              <p>
+                
           </tr>
         </table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          
+
+          <!-- Projects -->
+
           <tr>
-            <td width="25%" id="secure_inference_ara-img"></td>
-            <td valign="top" width="75%" id="secure_inference_ara-txt"></td>
+            <td width="25%" id="de-vae-img"></td>
+            <td valign="top" width="75%" id="de-vae-txt"></td>
           </tr>
           <script type="text/javascript">
             createProjectElement(
-              id = "secure_inference_ara", {
-              title: "A Faster and More Accurate Secure Model Serving Framework on the Cloud",
-              authors: "PI: Eric P. Xing",
-              paper_url: "awards/amazon_funding_secure_serving.pdf",
-              conference: "Amazon Research Awards ($80000)",
-              image: "figures/secure_inference_ara.PNG",
+              id = "de-vae", {
+              title: "Opinions Are Not Always Positive: Debiasing Opinion Summarization with Model-Specific and Model-Agnostic Methods",
+              paper_url: "https://arxiv.org/abs/2406.18200",
+              authors: "Yanyue Zhang, Yilong Lai, <b>Zhenglin Wang</b>, Pengfei Li, Deyu Zhou, Yulan He",
+              conference: "LREC-COLING 2024",
+              image: "figures/de-vae.png",
               others: null
             });
           </script>
-
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <tr>
-              <td>
-                <br>
-                <p align="right">
-                  <font size="2">
-                    <a href="https://dachengli1.github.io/">My boyfriend asked me to put him here :). He is awesome!</a>
-                  </font>
-                </p>
-              </td>
-            </tr>
-          </table>
+        </table>
+          
           <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
