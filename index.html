@@ -155,7 +155,7 @@
               title: "SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding",
               paper_url: "https://arxiv.org/abs/2406.18200",
               authors: "<b>Zhenglin Wang</b>, Jialong Wu, Yilong Lai, Congzhi Zhang, DeyuZhou",
-              conference: "NeurIPS 2024 Compression Workshop & COLING 2025",
+              conference: "COLING 2025 & NeurIPS 2024 Compression Workshop",
               image: "figures/seed.png",
               others: null
             });
@@ -196,6 +196,34 @@
               others: null
             });
           </script>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="25%" id="ctm-img"></td>
+            <td valign="top" width="75%" id="ctm-txt"></td>
+          </tr>
+          <script type="text/javascript">
+            createProjectElement(
+              id = "ctm", {
+                title: "Benchmarking Temporal Reasoning and Alignment Across Chinese Dynasties",
+                paper_url: "https://arxiv.org/abs/2502.16922",
+                authors: "<b>Zhenglin Wang</b>, Jialong Wu, Pengfei Li, Jiang Yong, Deyu Zhou",
+                conference: "Preprint",
+                image: "figures/ctm.png",
+                others: null
+              });
+          
+            // 获取图像元素并设置样式
+            var imgElement = document.querySelector("#ctm-img img");
+            if (imgElement) {
+              imgElement.style.maxHeight = "100px";  // 设置图像的最大高度为100px
+              imgElement.style.width = "auto"; // 保持宽高比
+              imgElement.style.display = "block"; // 将图像设置为块级元素
+              imgElement.style.marginLeft = "auto"; // 向左自动调整边距
+              imgElement.style.marginRight = "auto"; // 向右自动调整边距
+            }
+          </script>          
         </table>
         
         <!-- Other Researches -->
